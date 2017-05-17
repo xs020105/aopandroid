@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:osc="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_unfollow"
+        android:title="取消关注"
+        android:visible="false"
+        android:icon="@drawable/actionbar_follow_icon"
+        osc:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_follow"
+        android:title="关注"
+        android:visible="false"
+        android:icon="@drawable/actionbar_unfollow_icon"
+        osc:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_his_follow"
+        android:title="TA的关注"
+        android:visible="true"
+        osc:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_his_fans"
+        android:title="TA的粉丝"
+        android:visible="true"
+        osc:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_message"
+        android:title="给TA留言"
+        android:visible="true"
+        osc:showAsAction="never"/>
+</menu>
